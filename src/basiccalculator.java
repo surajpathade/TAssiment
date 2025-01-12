@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import input.input;
 public class basiccalculator {
 
 	public static void main(String[] args) {

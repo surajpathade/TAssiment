@@ -8,12 +8,11 @@ public class Leapyear {
 		System.out.println("Enter the year");
 		
 		int year = sc.nextInt();
-		if(year%4==0 || year%100==0);
+		if(year % 4 == 0)
 		
 		System.out.println("Leap year");
 		}
-		
-		else {
+	{
 			System.out.println("not leap year");
 		}
 		
@@ -23,4 +22,4 @@ public class Leapyear {
 			
 		}
 
-}
+

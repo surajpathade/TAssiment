@@ -6,14 +6,14 @@ public class Factorial {
 		int n , fact = 1;
 		System.out.println("Enter any num");
 		
-		Scanner sc =new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		n = sc.nextInt();
-		for (int i = 1; i <=n; i++);
+		for (int i = 1; i <=n; i++)
 		{
 			fact = fact*n;
 		}
-		System.out.println("factorial" + fact);
+		System.out.println("factorial=" + fact);
 		
 
 	}
